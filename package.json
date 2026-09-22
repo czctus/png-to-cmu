@@ -1,0 +1,23 @@
+{
+  "name": "png-to-cmu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && node . && py data.py"
+  },
+  "keywords": [],
+  "author": "czctus",
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "@types/lodash": "^4.17.25",
+    "lodash": "^4.18.1"
+  }
+}
