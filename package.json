@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "tsc && node . && py data.py"
+    "test": "tsc && node dist/test.js && python data.py"
   },
   "keywords": [],
   "author": "czctus",
@@ -12,12 +12,20 @@
   "license": "MIT",
   "packageManager": "pnpm@10.33.0",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^2.1.0",
+    "@types/debug": "^4.1.13",
     "@types/node": "^26.6.2",
-    "typescript": "^7.0.2"
+    "eslint": "^10.11.0",
+    "eslint-plugin-import-x": "^4.17.1",
+    "globals": "^17.12.0",
+    "typescript": "^7.0.2",
+    "typescript-eslint": "^8.70.1"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.9",
     "@types/lodash": "^4.17.25",
+    "debug": "^4.4.3",
     "lodash": "^4.18.1"
   }
 }
