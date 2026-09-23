@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "tsc && node dist/test.js && python data.py"
+    "test": "tsc && node dist/test.js && python data.py",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "czctus",
